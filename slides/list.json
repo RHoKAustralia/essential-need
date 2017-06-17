@@ -19,5 +19,18 @@
         "attr": {
             "data-background": "https://s-media-cache-ak0.pinimg.com/originals/37/bf/a8/37bfa8249a2baa06ed4b5088ad997768.jpg"
         }
+    },
+    {
+        "filename": "slide-4.md",
+        "attr": {
+            "data-background": "#ff0000"
+        }
+    },
+    "slide-5.html",
+    {
+        "filename": "slide-6.html",
+        "attr": {
+            "data-background": "resources/real-people1.jpg"
+        }
     }
 ]
