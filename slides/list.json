@@ -1,1 +1,23 @@
-["index.md"]
+[
+    "index.md",
+    "slide-title.html",
+    {
+        "filename": "slide2.md",
+        "attr": {
+            "class": "some-special-template",
+            "data-background": "#ffffff"
+        }
+    },
+    {
+        "filename": "slide3.md",
+        "attr": {
+            "data-background": "resources/background.jpg"
+        }
+    },
+    {
+        "filename": "slide4.md",
+        "attr": {
+            "data-background": "https://s-media-cache-ak0.pinimg.com/originals/37/bf/a8/37bfa8249a2baa06ed4b5088ad997768.jpg"
+        }
+    }
+]
