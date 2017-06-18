@@ -290,6 +290,14 @@ body {
   display: inline;
   color: white; }
 
+.slide1 img {
+  background-color: rgba(31, 78, 121, 0.37) !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin-left: 21rem !important;
+  width: 50%;
+  height: 50%; }
+
 /*
 .slides-fullscreen {
 	width: 100% !important;
