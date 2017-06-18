@@ -58,6 +58,18 @@ section.has-light-background {
 }
 
 // Override reveal slides behaviour
+
+.slide1 {
+	img {
+		background-color: rgba(31,78,121,0.37) !important;
+		border: none !important;
+		box-shadow: none !important;
+		margin-left: 21rem !important;	
+		width: 50%;
+		height: 50%;
+	}
+}
+
 /*
 .slides-fullscreen {
 	width: 100% !important;
@@ -65,6 +77,7 @@ section.has-light-background {
        	padding-right: 4%;
 }
 */
+
 
 //Template with 2 columns
 .left-right-template {

@@ -1,5 +1,11 @@
 [
     {
+        "filename": "slide1.html",
+        "attr": {
+		"data-background-image": "../resources/title-background.png"
+        }
+    },
+    {
         "filename": "essential-need-template.html",
         "attr": {
             "data-background": "#FFFFFF"
