@@ -38,5 +38,18 @@
         "attr": {
             "data-background": "#FFFFFF"
         }
+    },
+    {
+        "filename": "two-columns-with-text.html",
+        "attr": {
+            "data-background": "#FFFFFF"
+        }
+    },
+    {
+        "filename": "header-content-footer.html",
+        "attr": {
+            "data-background": "#FFFFFF"
+        }
     }
+    
 ]

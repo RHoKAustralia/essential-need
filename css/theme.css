@@ -290,6 +290,13 @@ body {
   display: inline;
   color: white; }
 
+/*
+.slides-fullscreen {
+	width: 100% !important;
+	padding-left: 4%;
+       	padding-right: 4%;
+}
+*/
 .left-right-template {
   color: white; }
   .left-right-template .left {
@@ -304,3 +311,5 @@ body {
     background: none !important;
     border: none !important;
     box-shadow: none !important; }
+  .left-right-template li {
+    color: black; }

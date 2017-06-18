@@ -57,7 +57,16 @@ section.has-light-background {
     color: white;
 }
 
-//Template with text on left, image on right.
+// Override reveal slides behaviour
+/*
+.slides-fullscreen {
+	width: 100% !important;
+	padding-left: 4%;
+       	padding-right: 4%;
+}
+*/
+
+//Template with 2 columns
 .left-right-template {
 	color: white;
 	.left {
@@ -75,5 +84,9 @@ section.has-light-background {
 		background: none !important;
 		border: none !important;
 		box-shadow: none !important;
+	}
+
+	li {
+	  color: black;	
 	}
 }
