@@ -308,6 +308,15 @@ body {
     background-image: url(../resources/left-column.png);
     font-size: 3.4rem;
     text-align: left; }
+    .left-right-template .left .header {
+      color: white;
+      margin-top: 1rem; }
+    .left-right-template .left .large {
+      font-size: 3.2rem; }
+    .left-right-template .left .medium {
+      font-size: 2rem; }
+      .left-right-template .left .medium li {
+        color: white; }
     .left-right-template .left .row:first-of-type {
       margin-bottom: 3rem !important; }
   .left-right-template .right {

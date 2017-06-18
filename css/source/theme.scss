@@ -82,6 +82,23 @@ section.has-light-background {
 
 		font-size: 3.4rem;
 		text-align: left;
+
+    .header {
+      color: white;
+      margin-top: 1rem;
+    }
+
+    .large {
+      font-size: 3.2rem;
+    }
+
+    .medium {
+      font-size:2rem;
+      li {
+        color: white;
+      }
+    }
+
 		.row:first-of-type {
 			   margin-bottom: 3rem !important;	
 		}
