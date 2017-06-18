@@ -32,5 +32,11 @@
         "attr": {
             "data-background": "resources/real-people1.jpg"
         }
+    },
+    {
+        "filename": "essential-need-template.html",
+        "attr": {
+            "data-background": "#FFFFFF"
+        }
     }
 ]

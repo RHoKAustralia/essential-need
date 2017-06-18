@@ -56,3 +56,24 @@ section.has-light-background {
     display: inline;
     color: white;
 }
+
+//Template with text on left, image on right.
+.left-right-template {
+	color: white;
+	.left {
+		background-color: rgb(222,197,170);
+		font-size: 3.4rem;
+		text-align: left;
+		.row:first-of-type {
+			   margin-bottom: 3rem !important;	
+		}
+	}
+	.right {
+		background-color: #FFFFFF;
+	}
+	img {
+		background: none !important;
+		border: none !important;
+		box-shadow: none !important;
+	}
+}

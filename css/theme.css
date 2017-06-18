@@ -289,3 +289,18 @@ body {
 .markdown-test {
   display: inline;
   color: white; }
+
+.left-right-template {
+  color: white; }
+  .left-right-template .left {
+    background-color: #dec5aa;
+    font-size: 3.4rem;
+    text-align: left; }
+    .left-right-template .left .row:first-of-type {
+      margin-bottom: 3rem !important; }
+  .left-right-template .right {
+    background-color: #FFFFFF; }
+  .left-right-template img {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important; }
