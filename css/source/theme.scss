@@ -69,8 +69,17 @@ section.has-light-background {
 //Template with 2 columns
 .left-right-template {
 	color: white;
+	header {
+	  background-image: url(../resources/logo-background.png);
+	  background-size: cover;
+	  img {
+		padding-left: 1rem;
+	  }
+  	}
+
 	.left {
-		background-color: rgb(222,197,170);
+		background-image: url(../resources/left-column.png);
+
 		font-size: 3.4rem;
 		text-align: left;
 		.row:first-of-type {
@@ -79,6 +88,9 @@ section.has-light-background {
 	}
 	.right {
 		background-color: #FFFFFF;
+		img {
+			height: 400px !important;
+		}
 	}
 	img {
 		background: none !important;
@@ -88,5 +100,26 @@ section.has-light-background {
 
 	li {
 	  color: black;	
+	}
+}
+
+//template with header, content and footer
+.header-content-footer {
+	header {
+	  background-image: url(../resources/logo-background.png);
+	  background-size: cover;
+	  img {
+		padding-left: 1rem;
+	  }
+    }
+
+    div.segment {
+      padding-top:4rem;
+      padding-bottom:4rem;
+    }
+	img {
+		border: none !important;
+		box-shadow: none !important;
+		background: none !important;
 	}
 }

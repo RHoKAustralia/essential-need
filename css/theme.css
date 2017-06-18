@@ -299,17 +299,39 @@ body {
 */
 .left-right-template {
   color: white; }
+  .left-right-template header {
+    background-image: url(../resources/logo-background.png);
+    background-size: cover; }
+    .left-right-template header img {
+      padding-left: 1rem; }
   .left-right-template .left {
-    background-color: #dec5aa;
+    background-image: url(../resources/left-column.png);
     font-size: 3.4rem;
     text-align: left; }
     .left-right-template .left .row:first-of-type {
       margin-bottom: 3rem !important; }
   .left-right-template .right {
     background-color: #FFFFFF; }
+    .left-right-template .right img {
+      height: 400px !important; }
   .left-right-template img {
     background: none !important;
     border: none !important;
     box-shadow: none !important; }
   .left-right-template li {
     color: black; }
+
+.header-content-footer header {
+  background-image: url(../resources/logo-background.png);
+  background-size: cover; }
+  .header-content-footer header img {
+    padding-left: 1rem; }
+
+.header-content-footer div.segment {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+.header-content-footer img {
+  border: none !important;
+  box-shadow: none !important;
+  background: none !important; }
